@@ -1,4 +1,4 @@
-# eurogold-frontend
+# redcliffe - rontend
 
 > A Vue.js project
 
