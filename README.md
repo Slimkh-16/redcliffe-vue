@@ -1,4 +1,4 @@
-# redcliffe - rontend
+# redcliffe - frontend
 
 > A Vue.js project
 
