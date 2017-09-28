@@ -1,8 +1,8 @@
 {
-  "name": "eurogold-frontend",
+  "name": "redcliffe-vue",
   "version": "1.0.0",
   "description": "A Vue.js project",
-  "author": "Alex Kravchenko <kraal2410@gmail.com>",
+  "author": "Sergey Kovalenko <hardslimlife@gmail.com>",
   "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",

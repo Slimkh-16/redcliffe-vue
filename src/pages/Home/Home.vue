@@ -1,26 +1,105 @@
 <template>
   <div>
-     привет я твоя домашняя страница )))
-     
-    <stones></stones>
-    <!--sec section-->
-    <section class="seo-section">
-      <div class="container"><span class="h1">Ювелирный интернет магазин Eurogold.ua</span>
-        <p>Ювелирные украшения давно стали неотъемлемой частью повседневной жизни каждого современного человека. Они никогда не теряют свою актуальность и постоянно находятся на вершине модных трендов. На сегодняшний день изделия из благородных металлов – это не только стильное дополнение к одежде, но и способ самовыражения, который может подчеркнуть изысканность вкуса своего владельца. Правильно подобранный драгоценный аксессуар способен чудесным образом преобразить человека, добавив в его образ нотки совершенства. Современные мастера, руководствуясь свежими тенденциями модных течений, создают настоящие шедевры ювелирного искусства, воплощенные в золоте и драгоценных камнях. Кулоны, серьги, цепочки, брошки, браслеты, кольца и другие аксессуары, представленные в каталогах магазинов драгоценностей, имеют только одну цель — придавать облику оригинальность и привлекательность. Поэтому за все время своего существования человечество не придумало более значимого подарка, чем золотые украшения.</p><span class="h2">Золотые изделия на любой вкус</span>
-        <p>Компания «Eurogold» и ее ювелирный интернет-магазин приглашают вас совершить незабываемое путешествие в мир драгоценных аксессуаров на все случаи жизни. Мы работаем на украинском рынке золотых украшений уже более 15 лет и предлагаем только лучшие экземпляры изделий из благородных металлов от производителя. Выбору клиента представлено более 10 000 моделей ювелирной продукции, выполненных в различных формах и стилях. Восхитительные золотые украшения, собранные в эксклюзивные коллекции, являются гордостью нашей фирмы. В каждом кулоне, кольце и цепочке таится утонченность и чарующая красота истинного искусства. Профессиональные дизайнеры, работающие с ювелирным брендом «Eurogold» создали великолепные аксессуары, воистину достойные восхищения. Шикарный стиль, чистое сияние бриллиантов и плавные линии золота гармонично соединены в каждом изделии.</p>
+    <!-- SLIDER TOP SECTION -->
+    <section class="top-slider">
+      <div class="container">
+        <div class="row">
+          <div class="slider">
+            <div data-dot="1" class="slider__item">
+              <img src="/static/assets/images/slider1.jpg" alt="">
+              <div class="slider__caption">
+                <b>Our progression</b>
+                <p>We are pleased to announce our progression to an independent law firm starting from 30 November 2015</p>
+              </div>
+            </div>
+            <div data-dot="2" class="slider__item">
+              <img src="/static/assets/images/slider1.jpg" alt="">
+              <div class="slider__caption">
+                <b>Our progression</b>
+                <p>We are pleased to announce our progression to an independent law firm starting from 30 November 2015</p>
+              </div>
+            </div>
+            <div data-dot="3" class="slider__item">
+              <img src="/static/assets/images/slider1.jpg" alt="">
+              <div class="slider__caption">
+                <b>Our progression</b>
+                <p>We are pleased to announce our progression to an independent law firm starting from 30 November 2015</p>
+              </div>
+            </div>
+            <div data-dot="4" class="slider__item">
+              <img src="/static/assets/images/slider1.jpg" alt="">
+              <div class="slider__caption">
+                <b>Our progression</b>
+                <p>We are pleased to announce our progression to an independent law firm starting from 30 November 2015</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
+    <!-- SLIDER TOP SECTION -->
+    <!-- SECTIONS CONTENT-->
+    <section class="sections">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 col-sm-3 col-xs-12 recent-news">
+            <div class="heading text-center">Recent News</div>
+            <ul class="news-list">
+              <li class="news-list__item"><a href="#">Lorem Ipsum Is simply dummy text of the printing nd typesetting industry</a></li>
+              <li class="news-list__item"><a href="#">Lorem Ipsum Is simply dummy text of the printing nd typesetting industry</a></li>
+              <li class="news-list__item"><a href="#">Lorem Ipsum Is simply dummy text of the printing nd typesetting industry</a></li>
+            </ul>
+          </div>
+          <div class="col-md-9 col-sm-9 col-xs-12 key-fact">
+            <div class="heading">Key facts</div>
+            <div class="key-fact__info">
+              <div class="col-md-4 col-sm-4 col-xs-12">
+                <p>Redcliffe Partners was founded in December 2015 as the successor firm to Clifford Chance in Ukraine. All lawyers and business services staff of Clifford Chance in Ukraine remained with us as part of the succession.</p>
+              </div>
+              <div class="col-md-4 col-sm-4 col-xs-12">
+                <p>The firm was founded by Olexiy Soshenko, Dmytro Fedoruk and Yehven Deyneko. They are the former heads of Banking & Finance, Corporate/M&A and Antitrust practices of Clifford Chance in Ukraine.</p>
+              </div>
+              <div class="col-md-4 col-sm-4 col-xs-12">
+                <p>The firm focuses primarily on Banking & Finance, Corporate/M&A and Antitrust. We are also regularly involved in real estate, commercial, regulatory, international arbitration and domestic litigation.</p>
+              </div>
+            </div>
+            <div class="time-upd">
+              <div class="time-line">
+                <div class="time-line__step"></div>
+                <div class="time-line__step time-line__step--center"></div>
+                <div class="time-line__step time-line__step--right"></div>
+                <div class="time-line__dark"></div>
+                <div class="time-line__dark time-line__dark--last"></div>
+              </div>
+              <div class="col-xs-4 time-upd__item">
+                <span class="time-upd__item-time">1 October 2008</span>
+                <p>Clifford Chance opens its Ukrainian office.</p>
+              </div>
+              <div class="col-xs-4 time-upd__item">
+                <span class="time-upd__item-time">Oct. 2008  — Dec. 2015</span>
+                <p>Clifford Chance quickly builds the reputation as one of the leading law firms working on high-end deals on the Ukrainian market.</p>
+              </div>
+              <div class="col-xs-4 time-upd__item">
+                <span class="time-upd__item-time">1 December 2015</span>
+                <p>Our office becomes independent from Clifford Chance and changes the name to Redcliffe Partners.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- SECTIONS CONTENT-->
   </div>
 </template>
 
 <script>
 /* import {mapGetters, mapActions} from 'vuex' */
-import Stones from './Stones'
+// import Stones from './Stones'
 
 export default {
-  components: {
-    'stones': Stones
-  }
+//  components: {
+//    'stones': Stones
+//  }
  /*  computed: {
     ...mapGetters(['top_products', 'new_products', 'latest_news', 'seo', 'last_reviews'])
   }, */
@@ -32,7 +111,3 @@ export default {
   } */
 }
 </script>
-
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-</style>
